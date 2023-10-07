@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.burger {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  transition: 0.3s ease;
+}
+
+.mobile__links {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.327);
+  width: 100%;
+  height: fit-content;
+  padding: 25px 10px;
+  animation: slideDown 400ms ease;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
